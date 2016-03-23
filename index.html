@@ -16,10 +16,12 @@
     <header ng-controller="generatorController" class="container">
       <div class="wrapper">
         <h1>Odebrecht Generator</h1>
-        <div class="jumbotron"><h3>Seu nome é "<span style="font-weight: bold;">{{nome}}</span>"</h3></div>
+        <div class="jumbotron"><h3>Seu nome é<br>"<span style="font-weight: bold;">{{nome}}</span>"</h3></div>
         <button type="button" name="button" ng-click="generateNew()">Gerar novo nome</button>
         <button type="button" name="button" ng-click="sendTweet()">Tweetar seu nome! <i class="fa fa-twitter"></i></button>
-      </div>
+		<p>Ideias? Sugestões? <a href="https://twitter.com/chicoknebel">@chicoknebel</a></p>
+		<img class="aviao" src="img/aviao.png">
+	  </div>
     </header>
 
     <footer class="navbar navbar-fixed-bottom">

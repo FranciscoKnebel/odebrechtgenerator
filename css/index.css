@@ -7,7 +7,6 @@ html, body {
 .wrapper {
 	text-align: center;
 	min-height: 85vh;
-  margin-top: 15vh;
 }
 
 header {
@@ -20,6 +19,7 @@ header {
 }
 
 footer {
+	margin-top: 500px;
 	padding-top: 10px;
 	min-height: 10vh;
 	text-align: center;
@@ -48,7 +48,7 @@ button {
 	display: inline-block;
 	text-align: center;
 	border-width: 5px;
-  border-color: #413d3e;
+	border-color: #413d3e;
 	border-style: solid;
 	text-decoration: none;
 	font-weight: bold;
@@ -70,4 +70,26 @@ button:active {
 
 button:focus {
 	outline:0;
+}
+
+.aviao {
+	height: 5em;
+}
+
+@media screen and (min-width: 321px) {
+    .aviao {
+		height: 10em;
+	}
+}
+
+@media screen and (min-width: 480px) {
+    .aviao {
+		height: 15em;
+	}
+}
+
+@media screen and (min-width: 768px) {
+    .aviao {
+		height: 20em;
+	}
 }
