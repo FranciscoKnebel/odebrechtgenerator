@@ -4,7 +4,8 @@ app.controller('generatorController', function($scope) {
               "Passivo", "Mandrake", "Cortininha", "Avião", "Manicure", "Carangueijo", "Zé Ruela", "Lindinho",
               "Pastor", "Aspirador", "Escritor", "Metralhadora", "Gatuno", "Mandioca", "Catarro", "Nervosinho", "Correria",
               "Padeiro", "Peteca", "Malote", "Nervosinho", "Havaiana", "Caroço", "Xaninha", "Drácula", "Carniça",
-              "Uninove", "Carniça", "Motorista", "Leite com Pêra", "Bingola"];
+              "Uninove", "Motorista", "Leite com Pêra", "Bingola", "Rio", "Candomblé", "Comuna", "Goleiro", "Bruto", "Colorido", "Roberval",
+			  "Tuca", "Viagra", "Grego", "Atleta", "Neto", "Cacique", "Eva", "Nordeste", "Pelé"];
 
   $scope.nome = jQuery.rand(list);
   $scope.generateNew = function() {
