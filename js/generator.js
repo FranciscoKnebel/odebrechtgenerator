@@ -11,10 +11,6 @@ app.controller('generatorController', function($scope) {
 			  "Champinho", "Maracanã", "Lasanha", "Zica", "Aedes Egípcio", "Bolovo", "Vice-Cônsul de Honduras", "Rogérinho",
 			  "Boquetitos"];
 			  
-
-
-
-
   $scope.nome = jQuery.rand(list);
   $scope.generateNew = function() {
     $scope.nome = jQuery.rand(list);
