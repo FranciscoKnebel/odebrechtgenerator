@@ -18,7 +18,7 @@ app.controller('generatorController', function($scope) {
   $scope.sendTweet = function() {
     var nome = $scope.nome;
     var meunomee = 'Meu apelido da Odebrecht é "'
-    var textToTweet = meunomee.concat(nome, '" - Ache o seu em http://goo.gl/MFpF1x');
+    var textToTweet = meunomee.concat(nome, '" - Ache o seu em http://goo.gl/Nzf2UR');
 
     var twtLink = 'http://twitter.com/home?status=' + encodeURIComponent(textToTweet);
     window.open(twtLink,'_blank');
