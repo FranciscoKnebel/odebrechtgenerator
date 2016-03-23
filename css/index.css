@@ -6,7 +6,7 @@ html, body {
 
 .wrapper {
 	text-align: center;
-	min-height: 75vh;
+	min-height: 85vh;
   margin-top: 15vh;
 }
 
@@ -21,7 +21,7 @@ header {
 
 footer {
 	padding-top: 10px;
-	height: 10vh;
+	min-height: 10vh;
 	text-align: center;
 	font-family: Port Lligat Slab, serif;
 	background-color: #556A67;
