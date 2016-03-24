@@ -4,7 +4,7 @@ app.controller('generatorController', function($scope) {
               "Passivo", "Mandrake", "Cortininha", "Avião", "Manicure", "Carangueijo", "Zé Ruela", "Lindinho",
               "Pastor", "Aspirador", "Escritor", "Metralhadora", "Gatuno", "Mandioca", "Catarro", "Nervosinho", "Correria",
               "Padeiro", "Peteca", "Malote", "Nervosinho", "Havaiana", "Caroço", "Xaninha", "Drácula", "Carniça",
-              "Motorista", "Leite com Pêra", "Bingola", "Rio", "Candomblé", "Comuna", "Goleiro", "Bruto", "Colorido", "Roberval",
+              "Motorista", "Leite com Pera", "Bingola", "Rio", "Candomblé", "Comuna", "Goleiro", "Bruto", "Colorido", "Roberval",
       			  "Tuca", "Viagra", "Grego", "Atleta", "Neto", "Cacique", "Eva", "Nordeste", "Pelé", "Dadinho", "Zé Pequeno", "Bigodão", "Safadão",
       			  "Capivara", "Fósforo", "Isqueirão", "Máquina", "Dunga", "Mestre dos Magos", "Tijolinho", "Bigorna", "Martelo", "Motoserra",
       			  "Rocambole", "Feijoada", "Bananão", "Cabra", "Surfistinha", "Bola de neve", "Chavoso", "Bola de fogo", "Morango do Nordeste",
