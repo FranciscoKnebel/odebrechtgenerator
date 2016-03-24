@@ -12,6 +12,11 @@
     <meta name="description" content="Gerador de codinomes ultrasecretos da Odebri.">
   	<meta name="keywords" content="Gerador, codinomes, apelido, Odebrecht, Avião">
 
+    <meta property="og:url"           content="http://kyozeus.github.io/odebrechtgenerator" />
+    <meta property="og:type"          content="Odebrecht Generator" />
+    <meta property="og:title"         content="Odebrecht Generator" />
+    <meta property="og:description"   content="Gerador de codinomes ultrasecretos da Odebri" />
+    <meta property="og:image"         content="http://kyozeus.github.io/odebrechtgenerator/img/aviao.png" />
 
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 
@@ -21,6 +26,13 @@
     <link rel="stylesheet prefetch preload" href="css/index.css">
   </head>
   <body ng-app="o-generator">
+    <div class="fb-like"
+      data-href="http://kyozeus.github.io/odebrechtgenerator"
+      data-layout="standard"
+      data-action="like"
+      data-show-faces="true">
+    </div>
+    <script src="js/facebook.js"></script>
 
     <header ng-controller="generatorController" class="container">
       <div class="wrapper">
@@ -30,13 +42,8 @@
         <button type="button" name="button" ng-click="sendTweet()">Tweetar seu nome! <i class="fa fa-twitter"></i></button>
       	<!-- Your like button code -->
       	<br>
-        <div class="fb-like"
-      		data-href="http://www.kyozeus.github.io/odebrechtgenerator"
-      		data-layout="standard"
-      		data-action="like"
-      		data-show-faces="true">
-      	</div>
-        <script src="js/facebook.js"></script>
+        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+
 		    <br><img class="aviao" src="img/aviao.png">
 	     </div>
 
